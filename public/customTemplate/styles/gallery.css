@@ -1,0 +1,41 @@
+
+.gallery{
+    margin: 10px;
+}
+
+.gallery img{
+    width: 165px;
+    height: 110px;
+    padding: 5px;
+    transition: 1s;
+}
+
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+.middle-content img{
+    width: 200px;
+    height: 180px;
+    margin-left: 170px;
+    transition: 1s;
+}
+
+.middle-content img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
+
+
+.end-content img{
+    width: 95px;
+    height: 80px;
+    padding: 5px;
+    transition: 1s;
+}
+
+.end-content img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
